@@ -17,6 +17,7 @@ const MyForm = () => {
 
     return (
         <div>
+            <h1 className="text-4xl text-center text-sky-600 mt-5">Onito Formik</h1>
             <form className="my-10" onSubmit={formik.handleSubmit}>
 
                 <h1 className="underline mb-2">Personal Details:</h1>
