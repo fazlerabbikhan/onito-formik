@@ -2,7 +2,7 @@ import React from "react";
 
 const Table = ({ item, index }) => {
 
-    const { name, age, sex, mobile, govtID } = item;
+    const { name, age, sex, mobile, govtID, guardian, email, emergency, address, state, city, postal, occupation, religion, marital, blood } = item;
 
     return (
         <tr>
@@ -12,6 +12,17 @@ const Table = ({ item, index }) => {
             <td>{sex}</td>
             <td>{mobile}</td>
             <td>{govtID}</td>
+            <td>{guardian}</td>
+            <td>{email}</td>
+            <td>{emergency}</td>
+            <td>{address}</td>
+            <td>{state}</td>
+            <td>{city}</td>
+            <td>{postal}</td>
+            <td>{occupation}</td>
+            <td>{religion}</td>
+            <td>{marital}</td>
+            <td>{blood}</td>
         </tr>
     );
 };

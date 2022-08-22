@@ -348,6 +348,17 @@ const MyForm = () => {
                             <th>Sex</th>
                             <th>Mobile</th>
                             <th>Govt ID</th>
+                            <th>Guardian</th>
+                            <th>Email</th>
+                            <th>Emergency</th>
+                            <th>Address</th>
+                            <th>State</th>
+                            <th>City</th>
+                            <th>Postal Code</th>
+                            <th>Occupation</th>
+                            <th>Religion</th>
+                            <th>Marital Status</th>
+                            <th>Blood Group</th>
                         </tr>
                     </thead>
                     <tbody>
